@@ -83,6 +83,9 @@ var challenges = [
 
     ,{options: {floorCount: 21, elevatorCount: 8, spawnRate: 1.5, elevatorCapacities: [6,8]}, condition: requireUserCountWithinTimeWithMaxWaitTime(2675, 1800, 45)}
 
+    ,{options: {floorCount: 25, elevatorCount: 3, spawnRate: 1.5, elevatorCapacities: [6,8]}, condition: requireUserCountWithinTimeWithMaxWaitTime(110, 200, 120)}
+
+
     ,{options: {floorCount: 21, elevatorCount: 8, spawnRate: 1.5, elevatorCapacities: [6,8]}, condition: requireDemo()}
 ];
 /* jshint laxcomma:false */
